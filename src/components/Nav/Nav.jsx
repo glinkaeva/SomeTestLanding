@@ -28,10 +28,7 @@ export default function Nav() {
         </div>
       </div>
       <div className={styles.burger}
-        onClick={() => {
-          setBurgerActive(!burgerActive); 
-          console.log(burgerActive)
-        }}
+        onClick={ () => setBurgerActive(!burgerActive) }
       >
         <div className={burgerActive ? styles.active : null}></div>
         <div className={burgerActive ? styles.active : null}></div>

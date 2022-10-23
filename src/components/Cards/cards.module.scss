@@ -74,7 +74,7 @@
   border: 1px solid rgb(170, 170, 179);
   border-radius: 46px;
   padding: 30px;
-  transition: .4s ease-in-out;
+  transition: .4s ease-in-out !important;
 
   &:hover {
     background: #1e1e1e;
@@ -342,7 +342,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .fw500 {
